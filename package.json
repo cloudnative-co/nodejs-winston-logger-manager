@@ -1,6 +1,6 @@
 {
     "name": "winston-logger-manager",
-    "description": "The manager to manage "Winston Transports"",
+    "description": "The manager to manage Winston Transports",
     "version": "0.0.2",
     "private": true,
     "author": {
