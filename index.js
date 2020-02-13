@@ -18,7 +18,7 @@ class LogManager{
                 continue;
             }
             if (config[transport]) {
-                this["_" + transport] = config[transport]
+                this["_" + transport] = Object.assign({}, config[transport])
             }
             this[transport]();
         }
