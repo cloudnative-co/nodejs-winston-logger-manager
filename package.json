@@ -1,0 +1,15 @@
+{
+    "name": "winston-logger-manager",
+    "description": "The manager to manage "Winston Transports"",
+    "version": "0.0.2",
+    "private": true,
+    "author": {
+        "name": "Sebastian",
+        "email": "seba@cloudnative.co.jp"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "winston": "^3.0.0",
+        "winston-azure-loganalytics": "git+ssh@github.com:cloudnative-co/nodejs-winston-azure-loganalytics.git"
+    }
+}
