@@ -58,7 +58,7 @@ class LogManager{
         this._logger.add(logAnalytics);
     }
 
-    info(data) {
+    put(data) {
         var record;
         if (typeof(data) == "string"){
             record = JSON.parse(data)
@@ -67,6 +67,10 @@ class LogManager{
         }
         this._logger.info(JSON.stringify(record))
     };
+
+    write (message, encoding) {
+        this._logger.info(message)
+    }
 }
 
-module.exports =  new LogManager();
+module.exports = LogManager;
